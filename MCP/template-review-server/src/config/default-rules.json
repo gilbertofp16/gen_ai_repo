@@ -1,0 +1,31 @@
+{
+  "structure": {
+    "requiredSections": ["ROLE", "CONTEXT", "TASK"],
+    "recommendedSections": ["FORMAT", "OUTPUT"],
+    "sectionOrder": ["ROLE", "CONTEXT", "TASK", "FORMAT", "OUTPUT"]
+  },
+  "content": {
+    "maxSentenceLength": 150,
+    "ambiguousTerms": [
+      "maybe",
+      "probably",
+      "possibly",
+      "might",
+      "could",
+      "should",
+      "would"
+    ]
+  },
+  "formatting": {
+    "preferredBulletStyle": "-",
+    "sectionSpacing": 1,
+    "allowTrailingWhitespace": false,
+    "requireConsistentCase": true
+  },
+  "variables": {
+    "format": "{{variableName}}",
+    "allowedCharacters": "alphanumeric and hyphens",
+    "suggestForLongContent": true,
+    "minContentLengthForSuggestion": 500
+  }
+}

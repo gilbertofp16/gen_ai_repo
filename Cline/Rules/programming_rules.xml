@@ -9,10 +9,12 @@
     <PRINCIPLE priority="7">Mock test data according to actual data structures. If mock data is reusable, extract it to a shared module or file.</PRINCIPLE>
     <PRINCIPLE priority="8">Always validate input and output structures when dealing with APIs or endpoints. This applies across all programming languages.</PRINCIPLE>
     <PRINCIPLE priority="9">Confirm external dependencies: verify the latest stable version and import path before use.</PRINCIPLE>
-    <PRINCIPLE priority="10">Surface performance considerations: note time/space complexity for algorithmic code.</PRINCIPLE>
-    <PRINCIPLE priority="11">Always outline your error-handling strategy before coding.</PRINCIPLE>
-    <PRINCIPLE priority="12">Echo the minimal file/directory structure when referring to paths.</PRINCIPLE>
+    <PRINCIPLE priority="10">Surface performance considerations: note time and space complexity for algorithmic code.</PRINCIPLE>
+    <PRINCIPLE priority="11">Always outline your error handling strategy before coding.</PRINCIPLE>
+    <PRINCIPLE priority="12">Echo the minimal file or directory structure when referring to paths.</PRINCIPLE>
     <PRINCIPLE priority="13">Execute all tasks with the proficiency of a senior software developer in the target language.</PRINCIPLE>
+    <PRINCIPLE priority="14">Never expose, log, or consume API keys, secrets, or .env variables in code, tests, or documentation. Always use environment variable mocking or secure injection for testing.</PRINCIPLE>
+    <PRINCIPLE priority="15">CLINE must respect .clineignore and never read, parse, or suggest the contents of ignored files such as .env, secrets, or credentials.</PRINCIPLE>
   </CRITICAL>
 
   <ENFORCEMENT>
@@ -22,46 +24,45 @@
 
   <CODING_RULES>
     <GENERAL>
-      <RULE id="GEN001">Follow "Clean Code" (Robert C. Martin) principles across all languages: meaningful names, small functions, avoid duplication, expressive tests, clear formatting.</RULE>
-      <RULE id="GEN002">
-        <![CDATA[
+      <RULE id="GEN001">Follow Clean Code principles across all languages: meaningful names, small functions, avoid duplication, expressive tests, clear formatting.</RULE>
+      <RULE id="GEN002"><![CDATA[
         Adhere to SOLID principles:
-        1. Single Responsibility – one reason to change per module/class/function.
+        1. Single Responsibility – one reason to change per module, class, or function.
         2. Open/Closed – open for extension, closed for modification.
         3. Liskov Substitution – subtypes replace base types without altering correctness.
-        4. Interface Segregation – many focused interfaces over one fat interface.
+        4. Interface Segregation – many focused interfaces over one large interface.
         5. Dependency Inversion – depend on abstractions, not concretes.
-        ]]>
-      </RULE>
-      <RULE id="GEN003">If your code interacts with endpoints, always define and enforce data structures for request and response validation regardless of the language used.</RULE>
+      ]]></RULE>
+      <RULE id="GEN003">If your code interacts with endpoints, always define and enforce data structures for request and response validation.</RULE>
+      <RULE id="GEN004">Never hardcode or directly consume API keys or values from .env files in examples, tests, or code snippets. Always mock or safely inject them to prevent exposure.</RULE>
     </GENERAL>
 
     <PYTHON>
-      <RULE id="PY001">Avoid code comments — functions should be self-documenting with expressive names.</RULE>
-      <RULE id="PY002">Decompose complex logic; each function should have a single responsibility.</RULE>
-      <RULE id="PY003">Use PEP 257 docstrings (Google or NumPy style) on every public class/function.</RULE>
+      <RULE id="PY001">Avoid code comments. Functions should be self documenting with expressive names.</RULE>
+      <RULE id="PY002">Decompose complex logic. Each function should have a single responsibility.</RULE>
+      <RULE id="PY003">Use PEP 257 docstrings on every public class or function.</RULE>
       <RULE id="PY004">Enforce type hints on all function signatures.</RULE>
-      <RULE id="PY005">One logical statement per line; no chained assignments or multiple expressions per line.</RULE>
-      <RULE id="PY006">Fail fast with clear exceptions: validate inputs at entry and raise precise ValueError or custom exceptions.</RULE>
-      <RULE id="PY007">Single exit point per function where practical — refactor multiple returns into a single result variable.</RULE>
-      <RULE id="PY008">Prefer pure functions; isolate side-effects (I/O, mutation) into clearly named wrappers.</RULE>
-      <RULE id="PY009">Always include a "See also" section in docstrings linking to related utilities or modules.</RULE>
-      <RULE id="PY010">Group related functions into modules (e.g. cluster.py, matching.py, status.py) rather than monolithic files.</RULE>
-      <RULE id="PY011">Limit method signatures to at most three parameters; inject dependencies rather than using global state.</RULE>
-      <RULE id="PY012">Format code with Black using a maximum line length of 120 characters (black -l 120).</RULE>
+      <RULE id="PY005">One logical statement per line. No chained assignments or multiple expressions per line.</RULE>
+      <RULE id="PY006">Fail fast with clear exceptions. Validate inputs at entry and raise precise ValueError or custom exceptions.</RULE>
+      <RULE id="PY007">Prefer a single exit point per function where practical.</RULE>
+      <RULE id="PY008">Prefer pure functions. Isolate side effects into clearly named wrappers.</RULE>
+      <RULE id="PY009">Always include a See also section in docstrings linking to related utilities or modules.</RULE>
+      <RULE id="PY010">Group related functions into modules rather than monolithic files.</RULE>
+      <RULE id="PY011">Limit method signatures to at most three parameters. Inject dependencies rather than using global state.</RULE>
+      <RULE id="PY012">Format code with Black using a maximum line length of 120 characters.</RULE>
       <RULE id="PY013">Use Poetry for dependency management and virtual environments.</RULE>
-      <RULE id="PY014">Follow a Cookiecutter-style project layout (src/, tests/, pyproject.toml, README.md, docs/).</RULE>
-      <RULE id="PY015">In pytest tests, mock data structures in a way that matches real-world usage. Extract reusable mocks into a shared file or test utility module for reuse across test cases.</RULE>
+      <RULE id="PY014">Follow a Cookiecutter style project layout with src, tests, pyproject.toml, README.md, and docs.</RULE>
+      <RULE id="PY015">In pytest tests, mock data structures to match real usage. Extract reusable mocks into shared test utilities.</RULE>
     </PYTHON>
 
     <JAVASCRIPT>
-      <RULE id="JS001">Use Prettier (e.g. prettier --print-width 100) and ESLint (Airbnb or chosen config).</RULE>
-      <RULE id="JS002">Enforce type safety with TypeScript — no implicit any; prefer strict mode.</RULE>
-      <RULE id="JS003">Use ES module syntax (import/export) whenever possible.</RULE>
-      <RULE id="JS004">Write small, pure functions; separate side-effects into well-named services or hooks.</RULE>
-      <RULE id="JS005">Scaffold projects via a Cookiecutter-like tool or create-node-package.</RULE>
-      <RULE id="JS006">Write unit tests with Jest or Mocha; aim for high coverage and meaningful test cases.</RULE>
-      <RULE id="JS007">Follow Clean Code JS best practices: consistent naming, error handling, and clear formatting.</RULE>
+      <RULE id="JS001">Use Prettier and ESLint with a consistent configuration.</RULE>
+      <RULE id="JS002">Enforce type safety with TypeScript. No implicit any and prefer strict mode.</RULE>
+      <RULE id="JS003">Use ES module syntax for imports and exports whenever possible.</RULE>
+      <RULE id="JS004">Write small pure functions. Separate side effects into well named services or hooks.</RULE>
+      <RULE id="JS005">Scaffold projects via a Cookiecutter like tool or create node package.</RULE>
+      <RULE id="JS006">Write unit tests with Jest or Mocha with high coverage and meaningful cases.</RULE>
+      <RULE id="JS007">Follow Clean Code JS best practices for naming, error handling, and formatting.</RULE>
     </JAVASCRIPT>
   </CODING_RULES>
 </IMPORTANT_RULES>

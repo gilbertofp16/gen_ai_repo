@@ -1,0 +1,11 @@
+# .clineignore
+.env
+*.env
+.env.*
+secrets/
+**/secrets/**
+*.pem
+*.key
+*.p8
+*.keystore
+**/.DS_Store

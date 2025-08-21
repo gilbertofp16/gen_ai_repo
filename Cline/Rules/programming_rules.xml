@@ -35,6 +35,26 @@
       ]]></RULE>
       <RULE id="GEN003">If your code interacts with endpoints, always define and enforce data structures for request and response validation.</RULE>
       <RULE id="GEN004">Never hardcode or directly consume API keys or values from .env files in examples, tests, or code snippets. Always mock or safely inject them to prevent exposure.</RULE>
+
+      <RULE id="GEN005">Minimal exception scope. Do not wrap imports or trivial statements in try except. Catch the narrowest exception only where you handle or transform it. Re-raise after adding context rather than swallowing errors.</RULE>
+
+      <!-- strengthened -->
+      <RULE id="GEN006"><![CDATA[
+        Dependency import policy:
+        A) Required dependencies MUST be imported unconditionally at module import with no try/except.
+        B) Optional dependencies MUST be imported inside the function or method that needs them.
+           On absence, catch ModuleNotFoundError ONLY at that point and raise RuntimeError with a short install hint.
+        C) PROHIBITED patterns:
+           - try/except around required imports (e.g., yaml, requests, crewai, langchain in this repo).
+           - Setting a missing module variable to None or creating stub objects.
+           - Printing warnings or logging and continuing after an ImportError.
+      ]]></RULE>
+
+      <!-- new hard stop for silent fallbacks -->
+      <RULE id="GEN008">No silent degradation. Missing required capabilities must fail fast with a precise exception. Do not print warnings, do not continue with partial functionality, do not create placeholder modules or values.</RULE>
+
+      <!-- configuration sources, no hardcoded strings -->
+      <RULE id="GEN007">Do not hardcode descriptive strings for agents, roles, prompts, or goals in code. Load from configuration (YAML, JSON, or TOML) and reference parsed values or constants from config modules.</RULE>
     </GENERAL>
 
     <PYTHON>
@@ -53,6 +73,16 @@
       <RULE id="PY013">Use Poetry for dependency management and virtual environments.</RULE>
       <RULE id="PY014">Follow a Cookiecutter style project layout with src, tests, pyproject.toml, README.md, and docs.</RULE>
       <RULE id="PY015">In pytest tests, mock data structures to match real usage. Extract reusable mocks into shared test utilities.</RULE>
+
+      <RULE id="PY016">Top level code policy. Only allow constants, dataclasses, type aliases, logger setup, and trivial configuration constants. No I/O, network calls, file reads, event loops, heavy computations, or client construction at import time.</RULE>
+      <RULE id="PY017">Import policy. Required dependencies are imported unconditionally. Do not wrap required imports in try except. Verify import paths against the actual project tree before referencing.</RULE>
+      <RULE id="PY018">Main guard. All executable logic must live under if __name__ == "__main__": or inside functions or classes. Provide a small main() and call it from the guard. Tests and CLIs must call functions, not run logic at import time.</RULE>
+      <RULE id="PY019">Async boundaries. Do not call asyncio.run at import time or inside lambdas defined at import time. Provide small sync adapters inside functions or main guard when bridging sync and async code.</RULE>
+      <RULE id="PY020">Config and file access. Reading YAML or other config files happens inside functions and is parameterizable by path. Lazy cache results only inside those functions. Never perform file I/O at import time.</RULE>
+      <RULE id="PY021">Globals discipline. Allowed: LOGGER, DEFAULTS, TypedDict or dataclass definitions, simple constants, dependency tokens. Prohibited: constructed clients such as LLMs, DB engines, or tool instances at import time. Use factory functions instead.</RULE>
+      <RULE id="PY022">Tool factories. Any CrewAI or LangChain tool or agent must be created by a factory function so creation side effects are explicit and testable. Do not instantiate tools at import time.</RULE>
+      <RULE id="PY023">Error handling strategy first. For any function touching I/O or external systems, list expected failures and how each is surfaced. Keep try except around only the minimal failing lines. Raise precise, contextual exceptions.</RULE>
+      <RULE id="PY024">Testable structure. Provide small adapters for side effects so unit tests can mock them. No top level execution paths. Include pytest cases for factories and adapters.</RULE>
     </PYTHON>
 
     <JAVASCRIPT>

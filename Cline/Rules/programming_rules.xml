@@ -1,16 +1,16 @@
-<IMPORTANT_RULES>
+<IMPORTANT_RULES source="Clean Code by Robert C. Martin">
   <CRITICAL>
-    <PRINCIPLE priority="1">Never assume missing context — ask clarifying questions if uncertain.</PRINCIPLE>
-    <PRINCIPLE priority="2">Never hallucinate libraries or functions — use only known, verified packages.</PRINCIPLE>
+    <PRINCIPLE priority="1">Never assume missing context — ask clarifying questions if uncertain. (Clean Code: “Don’t guess – clarify” — Robert C. Martin)</PRINCIPLE>
+    <PRINCIPLE priority="2">Never hallucinate libraries or functions — use only known, verified packages. (Clean Code: “Avoid disinformation” — Robert C. Martin)</PRINCIPLE>
     <PRINCIPLE priority="3">Always confirm file paths and module names exist before referencing them.</PRINCIPLE>
-    <PRINCIPLE priority="4">Always look at available code and suggest reuse of existing utilities if appropriate.</PRINCIPLE>
+    <PRINCIPLE priority="4">Always look at available code and suggest reuse of existing utilities if appropriate. (Clean Code: “Don’t repeat yourself (DRY)” — Robert C. Martin)</PRINCIPLE>
     <PRINCIPLE priority="5">Always mention which Cursor rules you applied in each response.</PRINCIPLE>
-    <PRINCIPLE priority="6">Always generate accompanying unit tests (e.g. pytest) for any non-trivial code.</PRINCIPLE>
+    <PRINCIPLE priority="6">Always generate accompanying unit tests (e.g. pytest) for any non-trivial code. (Clean Code: “Clean tests are first-class citizens” — Robert C. Martin)</PRINCIPLE>
     <PRINCIPLE priority="7">Mock test data according to actual data structures. If mock data is reusable, extract it to a shared module or file.</PRINCIPLE>
     <PRINCIPLE priority="8">Always validate input and output structures when dealing with APIs or endpoints. This applies across all programming languages.</PRINCIPLE>
     <PRINCIPLE priority="9">Confirm external dependencies: verify the latest stable version and import path before use.</PRINCIPLE>
-    <PRINCIPLE priority="10">Surface performance considerations: note time and space complexity for algorithmic code.</PRINCIPLE>
-    <PRINCIPLE priority="11">Always outline your error handling strategy before coding.</PRINCIPLE>
+    <PRINCIPLE priority="10">Surface performance considerations: note time and space complexity for algorithmic code. (Clean Code: “Consider efficiency, but clarity first” — Robert C. Martin)</PRINCIPLE>
+    <PRINCIPLE priority="11">Always outline your error handling strategy before coding. (Clean Code: “Error handling is one thing” — Robert C. Martin)</PRINCIPLE>
     <PRINCIPLE priority="12">Echo the minimal file or directory structure when referring to paths.</PRINCIPLE>
     <PRINCIPLE priority="13">Execute all tasks with the proficiency of a senior software developer in the target language.</PRINCIPLE>
     <PRINCIPLE priority="14">Never expose, log, or consume API keys, secrets, or .env variables in code, tests, or documentation. Always use environment variable mocking or secure injection for testing.</PRINCIPLE>
@@ -24,9 +24,9 @@
 
   <CODING_RULES>
     <GENERAL>
-      <RULE id="GEN001">Follow Clean Code principles across all languages: meaningful names, small functions, avoid duplication, expressive tests, clear formatting.</RULE>
+      <RULE id="GEN001">Follow Clean Code principles (Robert C. Martin): meaningful names, small functions, single responsibility, avoid duplication (DRY), expressive tests, clear formatting.</RULE>
       <RULE id="GEN002"><![CDATA[
-        Adhere to SOLID principles:
+        Adhere to SOLID principles (Robert C. Martin):
         1. Single Responsibility – one reason to change per module, class, or function.
         2. Open/Closed – open for extension, closed for modification.
         3. Liskov Substitution – subtypes replace base types without altering correctness.
@@ -35,10 +35,7 @@
       ]]></RULE>
       <RULE id="GEN003">If your code interacts with endpoints, always define and enforce data structures for request and response validation.</RULE>
       <RULE id="GEN004">Never hardcode or directly consume API keys or values from .env files in examples, tests, or code snippets. Always mock or safely inject them to prevent exposure.</RULE>
-
       <RULE id="GEN005">Minimal exception scope. Do not wrap imports or trivial statements in try except. Catch the narrowest exception only where you handle or transform it. Re-raise after adding context rather than swallowing errors.</RULE>
-
-      <!-- strengthened -->
       <RULE id="GEN006"><![CDATA[
         Dependency import policy:
         A) Required dependencies MUST be imported unconditionally at module import with no try/except.
@@ -49,12 +46,8 @@
            - Setting a missing module variable to None or creating stub objects.
            - Printing warnings or logging and continuing after an ImportError.
       ]]></RULE>
-
-      <!-- new hard stop for silent fallbacks -->
-      <RULE id="GEN008">No silent degradation. Missing required capabilities must fail fast with a precise exception. Do not print warnings, do not continue with partial functionality, do not create placeholder modules or values.</RULE>
-
-      <!-- configuration sources, no hardcoded strings -->
       <RULE id="GEN007">Do not hardcode descriptive strings for agents, roles, prompts, or goals in code. Load from configuration (YAML, JSON, or TOML) and reference parsed values or constants from config modules.</RULE>
+      <RULE id="GEN008">No silent degradation. Missing required capabilities must fail fast with a precise exception. Do not print warnings, do not continue with partial functionality, do not create placeholder modules or values.</RULE>
     </GENERAL>
 
     <PYTHON>
@@ -73,7 +66,6 @@
       <RULE id="PY013">Use Poetry for dependency management and virtual environments.</RULE>
       <RULE id="PY014">Follow a Cookiecutter style project layout with src, tests, pyproject.toml, README.md, and docs.</RULE>
       <RULE id="PY015">In pytest tests, mock data structures to match real usage. Extract reusable mocks into shared test utilities.</RULE>
-
       <RULE id="PY016">Top level code policy. Only allow constants, dataclasses, type aliases, logger setup, and trivial configuration constants. No I/O, network calls, file reads, event loops, heavy computations, or client construction at import time.</RULE>
       <RULE id="PY017">Import policy. Required dependencies are imported unconditionally. Do not wrap required imports in try except. Verify import paths against the actual project tree before referencing.</RULE>
       <RULE id="PY018">Main guard. All executable logic must live under if __name__ == "__main__": or inside functions or classes. Provide a small main() and call it from the guard. Tests and CLIs must call functions, not run logic at import time.</RULE>

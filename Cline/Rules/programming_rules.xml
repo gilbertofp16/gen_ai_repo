@@ -48,6 +48,7 @@
       ]]></RULE>
       <RULE id="GEN007">Do not hardcode descriptive strings for agents, roles, prompts, or goals in code. Load from configuration (YAML, JSON, or TOML) and reference parsed values or constants from config modules.</RULE>
       <RULE id="GEN008">No silent degradation. Missing required capabilities must fail fast with a precise exception. Do not print warnings, do not continue with partial functionality, do not create placeholder modules or values.</RULE>
+      <RULE id="GEN009">Use descriptive file names that clearly indicate the file's purpose and contents. Avoid generic names such as `utils.py` or `files.py`.</RULE>
     </GENERAL>
 
     <PYTHON>

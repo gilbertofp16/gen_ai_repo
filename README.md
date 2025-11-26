@@ -2,7 +2,7 @@
 
 This repository contains a curated collection of **coding rules**, **prompt templates**, **MCP server configurations**, and **examples** for working effectively with **Agentic Coding tools** such as [Cline](https://cline.bot), GitHub Copilot, and similar systems.
 
-The goal is to provide a reusable, well-structured foundation that improves consistency, productivity, and prompt adherence when working in agent-driven coding environments.
+The goal is to provide a reusable, well-structured foundation that improves consistency, productivity, and prompt adherence when working in agent-driven coding environments
 
 ---
 

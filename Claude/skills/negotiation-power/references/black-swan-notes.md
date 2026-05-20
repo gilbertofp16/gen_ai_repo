@@ -1,470 +1,871 @@
 # Black Swan Negotiation Notes
 
-Source basis: summarized principles from Never Split the Difference by Chris Voss. Do not quote long passages. Use these notes as a practical decision framework for reviewing and improving user text.
+Source basis: summarized operating principles from Never Split the Difference by Chris Voss. Use these notes as a practical decision framework for reviewing, diagnosing, and improving user messages.
 
-## Core idea
+Do not quote long passages from the book. Do not reproduce copyrighted text. Use the ideas as summarized negotiation patterns.
 
-Negotiation is communication with results.
+## Purpose of these notes
 
-Most conversations where someone wants something from another person are negotiations:
-- salary
-- refunds
-- stakeholder alignment
-- deadlines
-- job opportunities
-- conflict
-- influence
-- status
-- sales
-- difficult requests
+These notes are for a skill that reviews pasted text and improves it using negotiation principles.
 
-The skill should help the user communicate in a way that gets results without damaging the relationship.
+The skill should help the user:
+
+- ask for things more effectively
+- negotiate without sounding weak or aggressive
+- reduce resistance from the other person
+- create leverage through questions
+- make the other person feel understood
+- uncover hidden constraints
+- avoid giving away concessions too early
+- protect relationships while still moving toward a result
+
+The goal is not manipulation. The goal is psychologically intelligent communication that creates better outcomes.
 
 ## Core philosophy
 
-Do not treat negotiation as purely rational problem-solving.
+Negotiation is communication with results.
 
-People are emotional first and rational second. The goal is to work with the other person’s emotional reality, not ignore it.
+A negotiation is any interaction where one person wants something from another person.
 
-A strong negotiator:
-- slows the conversation down
-- listens first
-- makes the other person feel understood
-- discovers hidden information
-- avoids unnecessary confrontation
-- uses questions to shift the burden of problem-solving
-- protects their own position without sounding aggressive
+Examples:
 
-## Main diagnostic questions
+- asking for feedback
+- asking for payment
+- negotiating salary
+- asking for a deadline extension
+- pushing back on scope
+- responding to criticism
+- requesting a refund
+- handling conflict
+- dealing with a recruiter
+- managing stakeholders
+- asking a senior person for help
+- selling a service
+- creating agreement around next steps
 
-When reviewing a user’s text, ask:
+The central idea is that people are not purely rational. They are emotional first, then rational. Strong negotiation works with emotion, identity, risk, fear, status, fairness, and hidden constraints.
 
-1. Is the user making the other person feel heard?
-2. Is the user asking too directly before creating safety?
-3. Is the user over-apologising?
-4. Is the user giving away power too early?
-5. Is the user making a clear ask?
-6. Is the user using calibrated questions?
-7. Is the user pushing for “yes” too early?
-8. Is the user creating room for “no”?
-9. Is the user showing understanding before disagreement?
-10. Is the user revealing too much weakness?
-11. Is the user trading concessions or giving them away for free?
-12. Is there missing information, a hidden constraint, or a “Black Swan”?
+## What the skill must do with pasted text
 
-## Active listening
+When the user pastes text, the skill should diagnose:
 
-Start by listening and observing instead of arguing.
+1. What does the user want?
+2. Who has leverage?
+3. What is the other person likely feeling or protecting?
+4. Is the user asking too early before creating safety?
+5. Is the ask clear?
+6. Is the user over-apologising?
+7. Is the user giving away power?
+8. Is the user triggering resistance?
+9. Is there a better calibrated question?
+10. Is there a hidden Black Swan to uncover?
+11. Is the user conceding without trading?
+12. Does the message move the conversation toward a result?
 
-In text review, this means:
-- remove defensive language
-- reduce long explanations
-- acknowledge the other person’s likely view
-- make the message easier to respond to
-- avoid sounding like the user is trying to win an argument immediately
+Then the skill should rewrite the text using the right techniques.
 
-## Slow it down
+Do not force every technique into every message. Pick the few that matter.
+
+## Default diagnosis categories
+
+Classify the message as one or more of these:
+
+- Tactical empathy needed
+- Accusation audit needed
+- Calibrated question needed
+- No-oriented question needed
+- Clearer ask needed
+- Too apologetic
+- Too aggressive
+- Too vague
+- Too much explanation
+- Gives away leverage
+- Concedes too early
+- Relationship risk
+- Missing proof or evidence
+- Missing next step
+- Need to uncover hidden constraints
+- Already strong
+
+## Core negotiation sequence
+
+Use this sequence when the situation is sensitive or important:
+
+1. Slow down
+2. Make the other side feel heard
+3. Label likely concerns
+4. Use an accusation audit if the ask may create resistance
+5. Ask a calibrated or no-oriented question
+6. Make the ask clear
+7. Make trade-offs visible
+8. Confirm next step or execution
+
+## Principle 1: Slow it down
 
 Going too fast creates resistance.
 
-Use when the original text:
-- rushes into the ask
+Use this principle when the user:
+
+- rushes into an ask
 - sounds anxious
-- pushes for a decision too early
 - over-explains
 - tries to solve everything in one message
-
-Better approach:
-- acknowledge the situation
-- ask a useful question
-- invite the other person to reveal constraints
-- move one step at a time
-
-## Voice and tone
-
-Tone matters as much as content.
-
-Default rewrite tone:
-- calm
-- grounded
-- clear
-- warm but not weak
-- firm but not aggressive
-
-Avoid:
-- desperate tone
-- too many apologies
-- emotional leakage
-- passive-aggressive comments
-- corporate fluff
-- fake friendliness
-- over-dominant language
-
-Use calm certainty.
+- pushes for a yes too early
+- sounds like they are chasing
+- sounds reactive
 
 Weak:
-"Sorry to bother you, I was just wondering if maybe..."
 
-Stronger:
-"Could you review this today so I can move forward with the next step?"
+"Sorry to chase. I just wanted to check if you had any feedback."
 
-## Mirroring
+Better:
 
-Mirroring means repeating a key word or phrase to encourage the other person to elaborate.
+"I’m following up so we can keep this moving. What feedback do you need from me to finalise the next step?"
 
-Use in live conversation more than long written messages.
+Why this works:
 
-Useful when the other person says:
+- It removes apology
+- It slows the conversation
+- It invites the other person to reveal what is blocking progress
+- It creates movement without sounding needy
+
+## Principle 2: Active listening
+
+Active listening is not passive. It is a way to make the other person feel safe enough to reveal useful information.
+
+Use this when:
+
+- there is conflict
+- the other person is defensive
+- the user has incomplete information
+- the other person may feel pressured
+- the user needs to understand objections before pushing
+
+In written messages, active listening looks like:
+
+- naming the other side’s likely concern
+- summarising what seems to matter
+- asking what is blocking progress
+- avoiding blame
+- not arguing too early
+
+Weak:
+
+"You are blocking this and I need an answer."
+
+Better:
+
+"It sounds like there are still concerns about timing and ownership. What would need to be clarified for this to move forward?"
+
+## Principle 3: Voice and tone
+
+Tone carries power.
+
+Default written tone should be:
+
+- calm
+- clear
+- grounded
+- warm when useful
+- firm when needed
+- direct but not aggressive
+
+Avoid:
+
+- panic
+- desperation
+- too many apologies
+- sarcasm
+- passive aggression
+- long emotional explanations
+- fake friendliness
+- trying too hard to sound clever
+
+Useful tone rules:
+
+- For sensitive situations, use calm and warm.
+- For boundaries, use calm and firm.
+- For negotiation, use curious and controlled.
+- For senior stakeholders, use concise and outcome-focused.
+- For conflict, remove blame and clarify the problem.
+
+## Principle 4: Mirroring
+
+Mirroring means repeating a key phrase or the last important words the other person used.
+
+It is more useful in live conversation than in long written messages, but it can still be recommended when the user needs to gather information.
+
+Use mirroring when the other person says something vague or loaded:
+
 - "The budget is difficult."
-- "This is not the right time."
+- "This is not aligned."
 - "We have concerns."
-- "The team is not aligned."
+- "The timing is not right."
+- "Leadership is not comfortable."
+- "The quality is not there."
 
-Possible response:
+Mirror response:
+
 - "Difficult?"
-- "Not the right time?"
-- "Concerns?"
 - "Not aligned?"
+- "Concerns?"
+- "Not comfortable?"
+- "Not there?"
 
-In written feedback, suggest mirroring when the user needs more information before responding.
+In written form:
 
-## Tactical empathy
+"Could you clarify what feels misaligned?"
 
-Tactical empathy means understanding and naming the other person’s perspective without giving up your position.
+or
 
-Use when:
-- the other person may be defensive
-- the user needs to disagree
-- the user is asking for something difficult
-- the relationship matters
-- the other side has power
-- the user wants to reduce resistance
+"When you say the timing is difficult, what is the main constraint?"
+
+Do not overuse mirroring in polished emails. It can sound odd if used too literally.
+
+## Principle 5: Tactical empathy
+
+Tactical empathy means recognising the other person’s perspective without surrendering your position.
+
+It is not agreement. It is not weakness. It is a way to reduce resistance.
+
+Use tactical empathy when:
+
+- asking for something difficult
+- pushing back
+- negotiating price
+- challenging a decision
+- requesting a refund
+- asking for payment
+- asking for feedback
+- dealing with a senior stakeholder
+- the other person may feel criticised, blamed, or pressured
 
 Patterns:
+
 - "It sounds like..."
 - "It seems like..."
 - "It looks like..."
 - "I can imagine..."
 - "You may be concerned that..."
+- "The main concern may be..."
 
-Example:
+Examples:
+
 "It sounds like the main concern is whether this creates extra work for the team."
 
-## Labeling
+"It seems like the risk is not the idea itself, but the timing."
 
-Label the emotion, pressure, objection, or hidden concern.
+"I can imagine the budget is the biggest constraint right now."
 
-Use labels to make the other person feel understood.
+Bad use:
+
+"I understand your concern, but..."
+
+This often sounds fake because the "but" cancels the empathy.
+
+Better:
+
+"It sounds like timing is the main concern. What would need to change for this to be realistic?"
+
+## Principle 6: Labeling
+
+Labeling is naming the hidden emotion, concern, risk, or pressure.
+
+Use labels to make the other person feel understood and to bring hidden objections into the open.
 
 Good labels:
-- "It sounds like timing is the biggest concern."
-- "It seems like the risk is not the idea itself, but the effort required to implement it."
-- "It looks like you are trying to avoid adding complexity before the next release."
+
+- "It sounds like the main concern is risk."
+- "It seems like the team is trying to avoid rework."
+- "It looks like budget is the biggest constraint."
+- "It sounds like there is uncertainty about ownership."
+- "It seems like the real issue is confidence in the next step."
 
 Bad labels:
-- "You are wrong."
+
 - "You are being unfair."
-- "You do not understand."
+- "You are confused."
 - "You are blocking this."
+- "You do not understand."
+- "You are wrong."
 
-## Accusation audit
+A strong label should open the conversation, not accuse the person.
 
-Use an accusation audit before a difficult ask.
+## Principle 7: Accusation audit
 
-It works by naming the negative thought the other person may already have.
+An accusation audit means naming the negative thing the other person may already be thinking about the user before making the ask.
 
-Use when the user might sound:
+This reduces defensiveness.
+
+Use when the user may sound:
+
 - demanding
 - late
 - expensive
 - difficult
-- too direct
-- disappointed
-- challenging
+- direct
 - inconvenient
+- frustrated
+- challenging
+- pushy
+- disappointed
 
 Patterns:
+
 - "This may sound direct..."
 - "You may feel this is coming late..."
 - "You might think I am pushing too hard here..."
 - "This may not be the answer you were hoping for..."
 - "I realise this may create extra work..."
+- "You may be concerned this slows things down..."
 
-Example:
+Examples:
+
 "This may sound direct, but I think we need to revisit the scope before we commit to the current timeline."
 
-## Beware yes
+"You may feel this is coming late, but I want to flag it now before it creates rework."
 
-Do not chase a quick “yes”.
+"I realise this creates an extra decision, but I think it will prevent a bigger issue later."
 
-A yes can be fake, defensive, or meaningless.
+Do not overuse accusation audits in simple messages. Use them when resistance is likely.
 
-Watch for:
-- forced agreement
+## Principle 8: Beware yes
+
+Do not chase a cheap yes.
+
+A yes can mean:
+
+- fake agreement
 - polite agreement
-- vague approval
-- "Yes, I’ll try"
-- "Yes, sounds good" with no implementation
+- defensive agreement
+- agreement with no implementation
+- "I want this conversation to end"
+- "I heard you" but not "I will do it"
 
-Better goal:
-- get the person to explain the situation
-- get them to say "That’s right"
-- get clear next steps
-- get implementation detail
+Weak:
 
-## Master no
+"Can you confirm this is okay?"
 
-“No” can create safety.
+Better:
 
-Use no-oriented questions when the user needs a lower-pressure ask.
+"What would block this from moving forward?"
+
+or
+
+"How should we make sure this is implemented?"
+
+When reviewing text, check if the user is asking for a yes too early.
+
+Examples of weak yes-chasing:
+
+- "Does that make sense?"
+- "Is that okay?"
+- "Can you help?"
+- "Can we do this?"
+- "Do you agree?"
+
+Better alternatives:
+
+- "What would need to be true for this to work?"
+- "How should we move this forward?"
+- "What is the main blocker?"
+- "Who else needs to be involved?"
+- "What would make this decision easier?"
+
+## Principle 9: Master no
+
+"No" can make people feel safe.
+
+A no-oriented question often feels less pushy than a yes-oriented question.
+
+Use no-oriented questions when:
+
+- asking for help
+- asking for a meeting
+- asking for feedback
+- asking someone to reconsider
+- asking for a concession
+- reaching out cold
+- reducing pressure
 
 Patterns:
+
 - "Would you be opposed to...?"
 - "Would it be unreasonable to...?"
 - "Is now a bad time to...?"
 - "Would it be a bad idea to...?"
+- "Would you be against...?"
 
-Example:
-"Would you be opposed to reviewing one section of my portfolio this week?"
+Examples:
 
-This often feels safer than:
-"Can you review my portfolio?"
+"Would you be opposed to reviewing one section this week?"
 
-## Trigger “That’s right”
+"Would it be unreasonable to revisit the timeline before we commit?"
 
-The other person saying “That’s right” means they feel understood.
+"Is now a bad time to discuss the next step?"
 
-Use summaries and paraphrasing to reach this point.
+Be careful: no-oriented questions should not sound manipulative. Use them naturally.
 
-Pattern:
-"So what I am hearing is that the priority is speed, but the concern is introducing risk before the release."
+## Principle 10: Trigger “That’s right”
+
+The goal is not just "yes". A better signal is that the other person feels accurately understood.
+
+Use summary and paraphrase to reach this.
 
 Use when:
-- the discussion is stuck
-- there is conflict
+
+- the conversation is stuck
 - the other person feels misunderstood
 - the user needs permission to persuade
+- there are multiple concerns
+- the user needs alignment before making a recommendation
 
-## Calibrated questions
+Pattern:
 
-Calibrated questions usually start with “how” or “what”.
+"So what I’m hearing is that [summary of their view]. The priority is [priority], but the concern is [concern]."
 
-They shift the other person into problem-solving mode.
+Example:
+
+"So what I’m hearing is that speed matters, but not if it creates rework or risk for the release."
+
+Then ask:
+
+"Is that right?"
+
+or simply continue with:
+
+"Based on that, I recommend..."
+
+## Principle 11: Calibrated questions
+
+Calibrated questions usually start with "how" or "what".
+
+They make the other person think, reveal constraints, and help solve the user’s problem.
 
 Use when:
-- the user cannot accept a demand
-- the user needs the other side to reveal constraints
-- the user wants collaboration instead of confrontation
 
-Strong examples:
+- the user cannot accept a demand
+- the user needs to say no without saying no directly
+- the user needs more information
+- the user wants collaboration
+- there is a deadline, budget, or scope issue
+- the other person is pushing responsibility onto the user
+
+Strong calibrated questions:
+
 - "How would you like me to move this forward?"
 - "What would make this workable from your side?"
 - "How can we solve this without compromising quality?"
 - "What would need to be true for this to move ahead?"
 - "How am I supposed to commit to that timeline without the missing information?"
 - "What is the main risk you are trying to avoid?"
+- "What would block this from being approved?"
+- "Who else needs to be comfortable with this?"
+- "What would make this decision easier?"
 
-Avoid:
-- "Why are you doing this?"
-- "Why is this wrong?"
-- "Why can’t you help?"
+Avoid "why" when tension is high.
 
-“Why” can sound accusatory.
+"Why" can sound accusatory.
 
-## Illusion of control
+Weak:
+
+"Why did you change this?"
+
+Better:
+
+"What changed since the last decision?"
+
+Weak:
+
+"Why can’t we do this?"
+
+Better:
+
+"What would need to change for this to be possible?"
+
+## Principle 12: Illusion of control
 
 Give the other person a sense of control by asking questions, while still guiding the frame.
 
 Use when:
-- the user is under pressure
+
 - the other side is making demands
-- the user needs to say no without saying no directly
+- the user is under pressure
+- the user needs to say no indirectly
+- the user wants the other person to confront the trade-off
 
-Example:
-"How am I supposed to deliver this by Friday without the final requirements?"
+Examples:
 
-## Bending reality
+"How am I supposed to deliver this by Friday without final requirements?"
 
-Frame the situation so the other person understands the cost of inaction or the value of the user’s proposal.
+"How should we prioritise this if the deadline cannot move?"
+
+"What would you like me to deprioritise to make room for this?"
+
+This is especially useful for scope and deadline negotiation.
+
+## Principle 13: Make trade-offs visible
+
+A lot of weak messages fail because the user accepts pressure without naming the trade-off.
+
+Use this pattern:
+
+"If we do [A], the trade-off is [B]."
+
+Examples:
+
+"If we keep the Friday deadline, the trade-off is reducing scope."
+
+"If we move ahead without validation, the risk is rework after launch."
+
+"If we reduce the budget, we need to reduce the scope to protect quality."
+
+This protects the user from being trapped by unrealistic expectations.
+
+## Principle 14: Bending reality
+
+Bending reality means framing the situation so the other person understands cost, value, risk, fairness, or loss.
 
 Use carefully. Do not threaten.
 
-Useful tools:
+Tools:
+
+- contrast
 - fairness
 - deadlines
 - loss aversion
-- contrast
-- standards
 - opportunity cost
+- standards
+- risk framing
 
-Example:
-"If we move ahead without resolving this now, the risk is that we save time this week but create rework during delivery."
+Examples:
 
-## Loss aversion
+"The risk of moving fast now is that we create rework later."
 
-People often act more strongly to avoid loss than to gain benefit.
+"If we resolve this before launch, we protect the release and avoid a more expensive fix later."
 
-Use when the user needs to show the cost of doing nothing.
+"The cost of keeping the current process is continued confusion and slower decision-making."
 
-Example:
-"The risk of keeping the current process is that we continue losing time in review cycles and still do not solve the core issue."
+## Principle 15: Loss aversion
 
-## Fairness
+People often respond more strongly to avoiding loss than to gaining benefits.
 
-Be careful with the word “fair”.
+Use when the user needs to show the cost of inaction.
+
+Examples:
+
+"The risk of keeping the current version is that users continue dropping off at the same step."
+
+"If we do not clarify ownership now, we risk delays later when delivery pressure is higher."
+
+"Moving ahead without alignment may save time this week, but it increases the chance of rework next week."
+
+Do not exaggerate. Keep the risk credible.
+
+## Principle 16: Fairness
 
 People react strongly to fairness.
 
+Use fairness carefully.
+
 Good:
-"I want to make sure we are being fair to both the timeline and the quality of the work."
+
+"I want to make sure this is fair to the timeline, the quality bar, and the team’s capacity."
+
+"I think the fair way to handle this is to align the scope with the budget."
 
 Risky:
+
 "This is not fair."
 
-## Guarantee execution
+That can sound emotional or accusatory.
 
-“Yes” is not enough. Ask how the agreement will happen.
+Better:
 
-Use when:
+"I want to make sure we are using a fair basis for the decision."
+
+## Principle 17: No deal is better than a bad deal
+
+Do not compromise just to reduce discomfort.
+
+A compromise can be worse than choosing one clear option.
+
+Use this when:
+
+- the user is agreeing to bad terms
+- the user is splitting the difference without thinking
+- the user is accepting unrealistic scope
+- the user is reducing price without reducing scope
+- the user is accepting unclear responsibility
+- the user is trying to avoid conflict
+
+Message pattern:
+
+"I do not recommend splitting the difference here because it creates [risk]. A better option is [clear option]."
+
+Example:
+
+"I do not recommend reducing both quality and timeline just to meet the current plan. If the date is fixed, we should reduce scope."
+
+## Principle 18: Bargaining and concessions
+
+Do not give concessions for free.
+
+Every concession should be traded.
+
+Weak:
+
+"I can reduce the price."
+
+Better:
+
+"I can reduce the scope to fit the budget. Which outcomes matter most?"
+
+Weak:
+
+"I can do it by Friday."
+
+Better:
+
+"I can do Friday if we reduce scope and get feedback by Wednesday."
+
+Weak:
+
+"I can add that."
+
+Better:
+
+"I can add that if we move [lower priority item] to the next phase."
+
+## Principle 19: Ackerman bargaining
+
+Use for price, salary, or commercial negotiation.
+
+Basic pattern:
+
+1. Define the target.
+2. Prepare an ambitious but legitimate anchor.
+3. Use planned increments.
+4. Use empathy and calibrated questions between offers.
+5. Avoid round final numbers when useful.
+6. Trade concessions for terms.
+7. Do not let the other side rush you into compromise.
+
+Use this when:
+
+- negotiating salary
+- negotiating project fees
+- negotiating a discount
+- negotiating payment terms
+- negotiating contract scope
+
+Do not use it mechanically for normal workplace messages.
+
+## Principle 20: Negotiation styles
+
+Different people negotiate differently.
+
+Watch for three broad styles:
+
+### Analyst
+
+Likely traits:
+
+- wants data
+- needs time to think
+- dislikes pressure
+- may pause before responding
+- may value precision
+
+How to respond:
+
+- provide structure
+- avoid rushing
+- use evidence
+- give time
+- be precise
+
+### Accommodator
+
+Likely traits:
+
+- values relationship
+- talks openly
+- may avoid conflict
+- may say yes too quickly
+
+How to respond:
+
+- build rapport
+- confirm execution
+- ask how things will happen
+- avoid assuming agreement means commitment
+
+### Assertive
+
+Likely traits:
+
+- direct
+- time-sensitive
+- wants control
+- may interrupt
+- pushes for results
+
+How to respond:
+
+- be concise
+- be direct
+- do not ramble
+- use calibrated questions
+- set boundaries calmly
+
+Do not treat people the way the user wants to be treated. Treat them the way they need to be treated.
+
+## Principle 21: Guarantee execution
+
+A yes is not enough.
+
+Use execution questions when:
+
 - someone agrees vaguely
-- the user needs commitment
 - there are multiple stakeholders
-- implementation matters
+- the user needs follow-through
+- the decision affects delivery
+- the user needs ownership clarified
 
 Questions:
+
 - "How will we make sure this happens?"
 - "Who needs to be involved?"
 - "What would block this?"
 - "What is the next concrete step?"
 - "How will we know this is approved?"
-
-## Bargaining
-
-Do not give concessions for free.
-
-When the user gives something, ask for something in return.
+- "Who owns the decision from here?"
+- "What does done look like?"
 
 Weak:
-"Okay, I can reduce the price."
 
-Stronger:
-"I can reduce the scope to meet that budget. Which parts would you like to prioritise?"
+"Great, thanks."
 
-Weak:
-"I can do it by Friday."
+Better:
 
-Stronger:
-"I can do Friday if we reduce the scope to the core items and get sign-off today."
+"Great. Who owns the next step, and when should we check progress?"
 
-## Ackerman-style bargaining
+## Principle 22: Black Swans
 
-Use for price or salary negotiation.
-
-General pattern:
-1. Set a target.
-2. Start with a strong but reasonable anchor.
-3. Move in planned increments.
-4. Use empathy and calibrated questions between offers.
-5. Avoid round numbers where appropriate.
-6. Make the final number feel considered, not random.
-
-Do not apply this mechanically to every message.
-
-## Black Swans
-
-A Black Swan is hidden information that changes everything.
+A Black Swan is hidden information that changes the negotiation.
 
 Look for:
+
 - hidden decision-maker
 - hidden deadline
+- hidden budget constraint
 - hidden fear
-- hidden budget
-- hidden political issue
+- hidden political pressure
 - hidden personal motivation
-- hidden constraint
-- hidden consequence
 - hidden alternative
 - hidden blocker
+- hidden urgency
+- hidden risk
+- hidden consequence
+- hidden reason the other side cannot say yes
 
-When reviewing text, suggest questions that reveal Black Swans.
+When reviewing text, ask:
 
-Examples:
+"What information is missing that would change the strategy?"
+
+Questions to uncover Black Swans:
+
 - "What is the biggest concern behind the current decision?"
 - "Who else needs to be comfortable with this?"
 - "What would make this difficult to approve?"
 - "What are we not seeing yet?"
 - "What would change the decision?"
+- "What is driving the timeline?"
+- "What happens if this does not move forward?"
+- "What constraint is most important here?"
+- "Is there anything outside this conversation affecting the decision?"
 
 ## Negotiation One Sheet
 
-When the user is preparing for a serious negotiation, help them prepare:
+Use this when the user is preparing for a serious negotiation.
 
-1. Goal
+Create this structure:
+
+### Goal
+
 What does the user want?
 
-2. Best outcome
+### Best outcome
+
 What would be an excellent result?
 
-3. Minimum acceptable result
+### Minimum acceptable result
+
 What is the walk-away line?
 
-4. Other side’s likely view
+### Other side’s likely view
+
 What do they care about?
 
-5. Accusation audit
+### Their likely fears or objections
+
+What might they be protecting?
+
+### Accusation audit
+
 What negative things might they think about the user?
 
-6. Labels
+### Labels
+
 What emotions or concerns should be named?
 
-7. Calibrated questions
-What questions should the user ask?
+### Calibrated questions
 
-8. Black Swans
+What should the user ask?
+
+### No-oriented questions
+
+Where would "no" create safety?
+
+### Black Swans
+
 What hidden information should the user uncover?
 
-9. Concessions
-What can the user trade, not give away?
+### Concessions
 
-10. Next step
-What concrete outcome should the message create?
+What can the user trade rather than give away?
 
-## Review checklist for user text
+### Execution
 
-When reviewing pasted text, identify:
+What next step, owner, or confirmation is needed?
+
+## Text review checklist
+
+When reviewing pasted text, check:
 
 - Is the ask clear?
 - Is the tone calm?
 - Is there too much apology?
 - Is there too much explanation?
-- Is there enough tactical empathy?
 - Is the other side’s likely concern labelled?
-- Is the message asking for “yes” too early?
+- Is the message chasing yes too early?
 - Would a no-oriented question work better?
 - Is there a calibrated question?
-- Is the user trading or conceding?
+- Is the user giving away leverage?
+- Is the user conceding without trading?
 - Is there a hidden Black Swan to uncover?
 - Does the message protect the relationship?
 - Does it move toward a result?
+- Does it define the next step?
+- Does it create accountability?
 
-## Rewrite principles
+## Common weak phrases
 
-When improving the user’s text:
-
-1. Remove weak openers.
-2. Reduce apology.
-3. Add tactical empathy if there may be resistance.
-4. Add accusation audit before difficult asks.
-5. Replace vague asks with clear asks.
-6. Use calibrated questions where useful.
-7. Use no-oriented questions when the ask needs to feel safe.
-8. Show trade-offs clearly.
-9. Protect the relationship.
-10. Keep the user positioned as calm, capable, and credible.
-
-## Common weak phrases to remove
+Remove or improve:
 
 - "Sorry to bother you"
+- "Sorry to chase"
 - "I just wanted to"
 - "Maybe"
 - "I was wondering if"
@@ -473,66 +874,119 @@ When improving the user’s text:
 - "I’m not sure if this makes sense"
 - "I may be wrong but"
 - "If you have time"
-- "No worries if not" when the user actually needs a response
+- "No worries if not"
+- "Just checking"
+- "Quick question"
+- "Happy to do whatever you think"
 
 ## Stronger replacements
 
 Instead of:
+
 "Sorry to bother you."
 
 Use:
+
 "I wanted to check this with you directly."
 
 Instead of:
-"I was wondering if maybe you could..."
+
+"I just wanted to ask."
 
 Use:
-"Could you..."
+
+"I’m asking because..."
 
 Instead of:
-"I know you are busy..."
+
+"I know you are busy."
 
 Use:
+
 "To make this easy, I only need feedback on..."
 
 Instead of:
+
 "No worries if not."
 
 Use:
-"Would you be opposed to reviewing this by Friday?"
+
+"Would you be opposed to..."
 
 Instead of:
-"I think maybe we should..."
+
+"I can try."
 
 Use:
-"I recommend we..."
 
-## Default feedback labels
+"I can do that if..."
 
-When reviewing, classify the message as one of these:
+Instead of:
 
-- Mostly negotiation issue
-- Mostly power issue
-- Both negotiation and power issue
-- Tone issue
-- Clarity issue
-- Relationship-risk issue
-- Already strong
+"Let me know your thoughts."
 
-## Default output
+Use:
 
-Use this format:
+"What is the main concern you want me to address?"
+
+## Rewrite patterns
+
+### Pattern 1: Soft but stronger ask
+
+Use when the relationship matters.
+
+"I understand [their likely concern]. I’m asking because [reason]. Would you be opposed to [specific ask]?"
+
+### Pattern 2: Boundary with trade-off
+
+Use when the user is overloaded.
+
+"I can take this on, but not without moving another priority. What would you like me to deprioritise?"
+
+### Pattern 3: Pushback without aggression
+
+Use when the user disagrees.
+
+"I see the direction. My concern is [risk]. What would need to be true for this to work without [negative consequence]?"
+
+### Pattern 4: Scope or budget negotiation
+
+Use when price, scope, or deadline is being pressured.
+
+"I can work within [constraint], but we need to adjust [scope/timeline/quality] accordingly. Which outcome matters most?"
+
+### Pattern 5: Clarify vague feedback
+
+Use when feedback is unclear.
+
+"To make sure I address the right issue, what specifically needs to change: [option A], [option B], or [option C]?"
+
+### Pattern 6: Reveal hidden blocker
+
+Use when the other person is vague.
+
+"What is the main blocker preventing this from moving forward?"
+
+### Pattern 7: Execution confirmation
+
+Use after agreement.
+
+"Great. Who owns the next step, and what does the timeline look like?"
+
+## Default output format for the skill
+
+Use this when reviewing text:
 
 ## Diagnosis
 
 **Negotiation lens:**  
 Explain what is working and what is weak.
 
-**Power lens:**  
-Explain whether the user sounds strong, weak, reactive, defensive, needy, aggressive, or well-positioned.
+**Main negotiation issue:**  
+Name the biggest negotiation problem.
 
-**Main issue:**  
-Name the single biggest issue.
+**Likely hidden concern:**  
+State what the other person may be protecting or worried about.
 
 ## Improved version
 
@@ -540,17 +994,37 @@ Rewrite the text.
 
 ## Why this is stronger
 
-Explain the techniques used:
+Explain which techniques were used:
+
 - tactical empathy
+- labeling
 - accusation audit
 - calibrated question
 - no-oriented question
-- labeling
 - mirroring
 - loss aversion
+- fairness framing
+- trade-off framing
+- Black Swan discovery
 - clearer ask
-- stronger power positioning
+- execution question
 
 ## Stronger option
 
-If useful, provide a more direct version.
+If useful, provide a bolder version.
+
+## Final rule
+
+The best negotiation message is not the longest or most clever one.
+
+It should be:
+
+- calm
+- clear
+- emotionally intelligent
+- specific
+- strategic
+- easy to respond to
+- difficult to ignore
+- protective of the relationship
+- focused on a result
